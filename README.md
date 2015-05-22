@@ -12,25 +12,33 @@ To add these files to your repo in folder `config/lint` at your root:
 ## To run lint tools locally
 
 ### Rubocop
-Install https://github.com/bbatsov/rubocop localy with `gem install rubocop`.
+Hound uses [version 0.29.1](https://github.com/thoughtbot/hound/blob/master/Gemfile.lock#L262) of Rubocop.
+
+Install that version locally with `gem install rubocop -v 0.29.1`.
 
 To use Rubocop to check file.rb:
 `$ rubocop file.rb --config config/lint/.ruby-style.yml`
 
 ### CoffeeLint
-Install [CoffeeLint](http://www.coffeelint.org/) locally with `gem install coffeelint`.
+Hound uses [version 0.3.0](https://github.com/thoughtbot/hound/blob/master/Gemfile.lock#L75) of coffeelint.
+
+Install that version of [CoffeeLint](http://www.coffeelint.org/) locally with `gem install coffeelint -v 0.3.0`.
 
 To use CoffeeLint to check file.coffee:
 `$ coffeelint -f config/lint/.coffeescript-style.json file.coffee`
 
 ### JSHint
-Install [JSHint](https://github.com/jshint/jshint) locally with `gem install jshint` or `npm install jshint`.
+Hound uses [version 0.3.0](https://github.com/thoughtbot/hound/blob/master/Gemfile.lock#L124) of JSHint RB
+
+Install that version of [JSHint](https://github.com/jshint/jshint) locally with `gem install jshintrb -v 0.3.0`
 
 To use JSHint to check file.js:
 `$ jshint --config config/lint/.javascript-style.json file.js`
 
 ### SCSS-Lint
-Install [SCSS-Lint](https://github.com/brigade/scss-lint) locally with `gem install scss-lint`.
+Hound uses [version 0.34.0](https://github.com/thoughtbot/hound/blob/master/Gemfile.lock#L282) of scss-lint.
+
+Install that version of [SCSS-Lint](https://github.com/brigade/scss-lint) locally with `gem install scss-lint -v 0.34.0`.
 
 To use SCSS-Lint to check file.scss:
 `$ scss-lint --config config/lint/.scss-style.yml file.scss`
