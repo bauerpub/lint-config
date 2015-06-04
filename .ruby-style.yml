@@ -51,8 +51,8 @@ Style/AlignParameters:
 Style/AndOr:
   Description: Use &&/|| instead of and/or.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-and-or-or
-  Enabled: false
-  EnforcedStyle: always
+  Enabled: true
+  EnforcedStyle: conditionals
   SupportedStyles:
   - always
   - conditionals

@@ -73,7 +73,7 @@ linters:
     include_nested: false
     max_properties: 10
   PropertySortOrder:
-    enabled: true
+    enabled: false
     ignore_unspecified: false
     severity: warning
     separate_groups: false
@@ -116,8 +116,8 @@ linters:
     enabled: true
     spaces: 0
   StringQuotes:
-    enabled: false
-    style: double_quotes
+    enabled: true
+    style: single_quotes
   TrailingSemicolon:
     enabled: true
   TrailingZero:
